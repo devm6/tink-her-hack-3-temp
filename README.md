@@ -42,10 +42,12 @@ For Hardware:
 ### Implementation
 For Software:
 # Installation
-[commands]
+[commands] pip install opencv-python mediapipe pyautogui numpy
+
 
 # Run
-[commands] pip install opencv-python mediapipe pyautogui numpy
+[commands] python printsc.py
+           python changeppt.py
 
 ### Project Documentation
 For Software:
