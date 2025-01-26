@@ -30,7 +30,7 @@ while cap.isOpened():
                 last_click_time = time.time()
 
     cv2.imshow('Hand Gesture Control', frame)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord('k'):
         break
 
 cap.release()
