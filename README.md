@@ -20,6 +20,7 @@ This project uses computer vision to interpret hand gestures from a webcam feed.
 
 ### The Problem statement
 1. Changing Slides without using keyboard and mouse
+2. Make an assistant for heavily lazy people who cant even move to press the printscreen button
    
 
 ### The Solution
