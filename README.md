@@ -41,6 +41,29 @@ For Hardware:
 
 ### Implementation
 For Software:
+1. High-Level Design:
+The system follows a pipeline architecture. It begins by acquiring video frames from a webcam. These frames are then preprocessed (converted to RGB) and passed to the MediaPipe hand tracking model. The model outputs hand landmark data (the x, y, and z coordinates of key points on the hand). A gesture recognition module analyzes these coordinates to determine the user's gesture (e.g., distance between fingers, palm position relative to screen edges). Finally, an action execution module translates recognized gestures into actions performed by the computer through PyAutoGUI: screenshots, mouse clicks, or keyboard inputs (arrow keys in this case).
+2. Detailed Implementation:
+The Python code uses several libraries. Key parts of the code would be as follows:
+Initialization:
+Importing required libraries (cv2, mediapipe, pyautogui, numpy, time , math).
+Creating a cv2.VideoCapture object to access the default webcam (index 0).
+Initializing MediaPipe Hands (mp_hands.Hands).
+Getting screen width/height through pyautogui.
+Frame Processing Loop:
+The main loop reads frames continuously from the webcam.
+The frame undergoes colour conversion (cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)).
+The frame is processed using MediaPipe to detect hand landmarks in real-time.
+Landmark coordinates are extracted.
+Gesture Recognition Logic:
+For this particular example, this entails calculating the distance between the index fingertip and the middle fingertip and applying threshold conditions to trigger click and screenshot functionality
+Another calculation, which is the relative screen centre position, from the x-axis of palm-centre, triggers left/right arrow key presses. Moving averages or Kalman filtering can be applied to deal with jerky hand motions.
+Action Execution:
+PyAutoGUI is used to simulate actions like pyautogui.click(), pyautogui.hotkey("win", "prtsc"), and pyautogui.press('left'/'right') based on identified gestures. A small time delay might be helpful to avoid repetitive actions.
+Visualization:
+cv2.imshow() function to display the captured and processed frames (typically highlighting the landmarks detected on the hand). Text might overlay information (e.g., distances).
+
+
 # Installation
 [commands] pip install opencv-python mediapipe pyautogui numpy
 
