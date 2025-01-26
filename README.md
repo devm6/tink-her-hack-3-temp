@@ -13,7 +13,7 @@
 - Member 3: Devika M B - Gect
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+[[mention your project hosted project link here]](https://drive.google.com/file/d/1rQ2NDPOpZsOwF3jnQ9V8QRg1IClvN_mM/view)
 
 ### Project Description
 This project uses computer vision to interpret hand gestures from a webcam feed. It translates specific hand movements into computer actions, such as taking screenshots, simulating mouse clicks, and navigating left and right using keyboard arrows. The system is designed for hands-free control of a computer.
@@ -110,12 +110,13 @@ For Hardware:
 
 # Additional Demos
 [[Add any extra demo materials/links]](https://drive.google.com/file/d/14tO4MJhocffxQpLa0u1qwuOO7FAEmhkG/view?usp=sharing)
+*Demo of taking screenshot using 'cut' [victory with movement] gesture
 
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Devika M B:  Done relevant research and studies related to Open CV and implemented it in programs. Implemented print-screen using Open CV.
+- Aryasree T: Implemented the program for using right arrow key and left arrow key with Open C V.
+- Hiba sherin: Implented the program for using right arrow key and left arrow key with Open C V.Done the research for this program.
 
 ---
 Made with ❤️ at TinkerHub
