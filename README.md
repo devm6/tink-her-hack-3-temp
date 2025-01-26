@@ -70,10 +70,11 @@ Display the processed video feed with visual feedback (landmarks drawn, distance
 
 ![Screenshot2]![hkcoordi](https://github.com/user-attachments/assets/04a20777-d661-487a-a0de-afece2afe26d)
 
-**
+*Recognition of 21 hand-knuckle coordinates*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3]![changing ppt](https://github.com/user-attachments/assets/f8be00e9-a9c4-43d8-9d3f-b981c5b60b8d)
+
+*Changing ppt slides without using keyboard or mouse*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
