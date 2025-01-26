@@ -48,13 +48,29 @@ For Software:
 
 ### Project Documentation
 For Software:
+1. Core Functionality:
+Screenshot Capture: A specific gesture (typically a widening distance between index and middle finger) triggers a screenshot.
+Mouse Click Simulation: A different gesture (typically a narrowing distance between index and middle finger) simulates a mouse click.
+Left/Right Arrow Navigation: The horizontal position of the palm relative to the center of the screen controls left and right arrow key presses, allowing for basic screen navigation.
+
+2.Algorithm
+Capture a frame from the webcam.
+Process the frame using MediaPipe's hand detection model.
+Extract relevant landmark coordinates.
+Apply algorithms (distance calculations, screen-relative position analysis) to determine gestures.
+Based on the determined gesture, execute corresponding actions using PyAutoGUI.
+Display the processed video feed with visual feedback (landmarks drawn, distance shown).
+
+
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1]![learning](https://github.com/user-attachments/assets/ca98492e-a0ab-4f59-8b2c-07fcb5178e55)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+*learning the basics-videocapture using OpenCV*
+
+![Screenshot2]![hkcoordi](https://github.com/user-attachments/assets/04a20777-d661-487a-a0de-afece2afe26d)
+
+**
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
