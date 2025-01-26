@@ -1,36 +1,37 @@
 
 
-# [Project Name] 🎯
+# [Automation using Gestures] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Undo
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Aryasree T - Gect
+- Member 2: Hiba Sherin - Gect
+- Member 3: Devika M B - Gect
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+This project uses computer vision to interpret hand gestures from a webcam feed. It translates specific hand movements into computer actions, such as taking screenshots, simulating mouse clicks, and navigating left and right using keyboard arrows. The system is designed for hands-free control of a computer.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+1. Changing Slides without using keyboard and mouse
+   
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+Using Computer Vision
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [Languages used] Python
+- [Frameworks used] MediaPipe
+- [Libraries used] OpenCV, PyAutoGUI,MediaPipe
+- [Tools used] VSCode
 
 For Hardware:
 - [List main components]
@@ -43,7 +44,7 @@ For Software:
 [commands]
 
 # Run
-[commands]
+[commands] pip install opencv-python mediapipe pyautogui numpy
 
 ### Project Documentation
 For Software:
